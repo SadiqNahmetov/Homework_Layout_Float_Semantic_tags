@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    display: flex;
+
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 15px;
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-top: -29px;
+    padding-left: 770px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(57, 58, 58);
+}
+
+.header .line {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(122, 119, 119);
+    margin-top: 26px;
+    box-shadow: 0px 3px 10px;
+
+}
+
+#header .head span {
+    display: flex;
+    color: gold;
+    justify-content: center;
+    font-size: 10px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+#header .head h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 14px;
+    font-size: 50px;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.card {
+    margin-right: 20px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: 0.5px solid #aaa;
+    border-bottom: 0.5px solid #aaa;
+    border-left: 0.5px solid #aaa;
+
+}
+
+.card img {
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.card .card-footer {
+    padding: 20px 40px;
+}
+
+.card .icon i {
+    padding-left: 5px;
+    color: yellow;
+
+}
+
+.card .icon span span {
+    margin-left: 10px;
+
+}
+
+.oclock-locat .oclock span span {
+    margin-left: 5px;
+
+}
+
+.oclock-locat {
+    display: flex;
+}
+
+.card-footer h4 {
+    padding-top: 10px;
+}
+
+.card-footer .price {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.card-footer #color {
+    color: rgb(149, 237, 250);
+}
+
+.oclock-locat {
+    margin-top: 20px;
+}
+
+.oclock-locat .location {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.oclock-locat .location span span {
+    margin-left: 5px;
+}
